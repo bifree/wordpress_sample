@@ -1,0 +1,122 @@
+@charset "UTF-8";
+body {
+  color: #1B224C;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  line-height: 1.5;
+}
+
+body input, body textarea, body button {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body button {
+  border: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.contact .contact__area {
+  max-width: 700px;
+  margin: 3rem auto 5rem;
+}
+
+.contact .contact__area .contact__text {
+  margin-bottom: 2.5rem;
+}
+
+.contact .contact__area .form__items {
+  margin-bottom: 2rem;
+}
+
+.contact .contact__area .form__item {
+  margin-bottom: 1.2rem;
+}
+
+.contact .contact__area .form__title {
+  margin-bottom: .5rem;
+}
+
+.contact .contact__area .form-box, .contact .contact__area .form__message {
+  width: 100%;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.contact .contact__area .form-box {
+  height: 50px;
+}
+
+.contact .contact__area .form__title--bold {
+  font-weight: bold;
+}
+
+.contact .contact__area .form__radio-name, .contact .contact__area .form__check-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.contact .contact__area .form__radio, .contact .contact__area .form__policy-check {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+}
+
+.contact .contact__area .form__message {
+  height: 240px;
+  padding-top: 20px;
+}
+
+.contact .contact__area .form__policy--center {
+  text-align: center;
+}
+
+.contact .contact__area .form__policy-text {
+  margin-bottom: 2rem;
+}
+
+.contact .contact__area .form__policy-link {
+  color: #F5A623;
+  text-decoration: underline;
+}
+
+.contact .contact__area .form__policy-link:hover {
+  opacity: .6;
+}
+
+.contact .contact__area .form__check-name {
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.contact .contact__area .form__contact-btn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: #1B224C;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.thanks .thanks__area {
+  max-width: 900px;
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.thanks .thanks__message {
+  margin-bottom: 5rem;
+}
+
+.thanks .thanks__home-link {
+  color: #1B224C;
+  text-decoration: underline;
+}
