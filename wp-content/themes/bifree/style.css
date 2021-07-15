@@ -103,3 +103,7 @@ a {
 .contacts {
 	align-self: center;
 }
+
+.title-img > img {
+	width: 100%;
+}
